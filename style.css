@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "pacifico";
+  src: url("/assets/Pacifico-Regular.ttf");
+}
+@font-face {
+  font-family: "Fredoka";
+  src: url("./assets/Fredoka-VariableFont_wdth,wght.ttf");
+}
+body {
+  background-color: #f5b1c2;
+  font-family: "Fredoka";
+}
+
+header {
+  justify-content: space-between !important;
+  padding: 0px 64px;
+}
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin-left: 32px;
+}
+a:hover {
+  color: #c22d13;
+}
+
+.button,
+.button-main {
+  background-color: white;
+  border: unset;
+  height: 48px;
+  padding: 0px 16px;
+  min-width: 100px;
+  border-radius: 32px;
+}
+.button:hover,
+.button-main:hover {
+  filter: brightness(1.2);
+  cursor: pointer;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.button-main {
+  background-color: #c22d13;
+  color: white !important;
+}
+
+h1 {
+  color: #c22d13;
+  font-family: "pacifico";
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  gap: 16px;
+}
+
+.main-text {
+  color: white;
+  left: 64px;
+  top: 20vh;
+  position: absolute;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.main-text span {
+  color: #c22d13;
+}
+
+.center-all,
+header,
+.button,
+.button-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gbi {
+  position: absolute;
+  bottom: 0;
+  right: 20vw;
+  width: 40vw;
+}
+
+.circle {
+  width: 40vw;
+  height: 40vw;
+  background-color: #f59eb4;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 20vw;
+} /*# sourceMappingURL=style.css.map */
